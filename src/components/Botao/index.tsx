@@ -1,10 +1,10 @@
 import React from 'react';
-import Formulario from '../Formulario';
+import './style.scss'
 
 class Botao extends React.Component {
     render() {
         return (
-            <button>
+            <button className='botao'>
                 Botão
             </button>
         )
